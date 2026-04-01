@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Snake-114</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Snake-114</h1>
+    <div class="game-info">
+      <div>分數：<span id="score">0</span></div>
+      <div>狀態：<span id="status">尚未開始</span></div>
+      <div>速度：<span id="speed">1</span></div>
+    </div>
+    <canvas id="gameCanvas" width="400" height="400"></canvas>
+    <div class="controls">
+      <button id="startBtn">開始</button>
+      <button id="pauseBtn" disabled>暫停</button>
+      <button id="resetBtn">重置</button>
+    </div>
+    <div class="hint">鍵盤操作：↑↓←→，暫停 P，重置 R</div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
